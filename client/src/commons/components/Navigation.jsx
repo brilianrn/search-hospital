@@ -32,16 +32,9 @@ export default function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" aria-controls="navbarScroll">
             <Nav>
-              <Nav.Link href="#home" className="items">Home</Nav.Link>
-              <Nav.Link href="#about" className="items">About</Nav.Link>
-              <Nav.Link href="#education" className="items">Education</Nav.Link>
-              <Nav.Link href="#skills" className="items">Skills</Nav.Link>
-              <Nav.Link href="#portfolio" className="items">Portofolios</Nav.Link>
-              {/* <NavDropdown title="Portofolios" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">kewebin.id</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">e-commerce</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">movie-app</NavDropdown.Item>
-              </NavDropdown> */}
+              <NavDropdown title="Hi, Brilian" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.2">Logout</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="#" onClick={(event) => openNewTab({ event, url: "https://wa.me/6281230818789" })} className="btn btn-primary text-white">Contact Me</Nav.Link>
             </Nav>
           </Navbar.Collapse>
