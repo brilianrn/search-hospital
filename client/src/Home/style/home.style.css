@@ -1,0 +1,63 @@
+.home-list-title {
+  font-weight: 600;
+  font-size: 32px;
+  color: #3B4F5B;
+}
+
+.home {
+  margin-top: 80px;
+}
+
+.table-hospital {
+  width: 100%;
+  overflow-x: auto;
+}
+
+form {
+  border: 1px solid #BEC4C8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fbaf17;
+  height: 32px;
+  width: 512px;
+  margin-left: 76px;
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  font-weight: 400;
+}
+
+input[type="search"]::placeholder {
+  color: #BEC4C8;
+}
+
+button[type="submit"] {
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+  background: #ffffff;
+  color: #BEC4C8;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #BEC4C8;
+  border-color: #BEC4C8;
+  outline: none;
+}
